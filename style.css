@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(109.6deg, rgb(0, 0, 0) 11.2%, rgb(11, 132, 145) 91.1%);
+}
+
+.container {
+    width: 35rem;
+    box-shadow: 0px 0px 5px grey;
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.col {
+    text-align: justify;
+    padding: 15px;
+    width: 95%;
+}
+
+#submit {
+    width: 100%;
+    background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 100%);
+    transition: 0.5s;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    display: block;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#submit:hover {
+    background-color: rgb(34, 6, 53);
+}
+
+.box {
+    box-shadow: 0px -1px 1px grey;
+    width: 100%;
+}
+.hide{
+    display: none;
+}
+#quizContainer {
+    display: none; /* Initially hidden */
+}
+
+#timer {
+    font-size: 1.5em;
+    color: red;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#startPage{
+    
+   text-align: center;
+   margin-top: 15%;
+   
+}
+
+#startPage h1{
+    padding: 5px;
+    color: rgb(31, 77, 117);
+}
+#startPage p{
+    display: block;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: black;
+    padding: 3px;
+    margin-top: 20px;
+    color: black;
+}
+select{
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    background:#FFDAB9;
+    color: #1f2847;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+#startButton{
+    width: 10%;
+    height:50px;
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+    color: #FFFAE6;
+    background:  linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 30%, rgba(0,212,255,1) 100%);
+    cursor: pointer;
+}
+
+#searchContainer {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+#searchBar {
+    padding: 5px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    outline: none;
+}
+#searchBar:hover{
+    background-color:black;
+    color: white;
+}
+
+#startPage {
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #000;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+#exitbtn{
+  background: linear-gradient(90deg, rgba(131,58,180,1) 19%, rgba(253,29,29,1) 60%, rgba(252,176,69,1) 100%);
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+}
+@media (max-width: 599px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  @media (min-width: 600px) and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  @media (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 16px;
+    }
+  }
+  @media (min-width: 992px) and (max-width: 1199px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  @media (min-width: 1200px) {
+    body {
+      font-size: 20px;
+    }
+  }    
